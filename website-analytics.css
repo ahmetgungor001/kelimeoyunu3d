@@ -1,0 +1,36 @@
+.gd-analytics-settings {
+  width: min(90%, 77rem);
+  margin: 1rem auto;
+  font: .9rem/1.5 system-ui, sans-serif;
+  text-align: left;
+}
+.gd-analytics-settings button {
+  font: inherit;
+  cursor: pointer;
+}
+.gd-analytics-toggle {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  padding: .4rem 0;
+}
+#gd-analytics-panel {
+  max-width: 32rem;
+  padding: .9rem 1rem;
+  background: #fff;
+  color: #1c2420;
+  border: 1px solid #829085;
+  border-radius: .5rem;
+}
+#gd-analytics-panel p { margin: 0 0 .45rem; }
+.gd-analytics-actions { display: flex; flex-wrap: wrap; gap: .55rem; }
+.gd-analytics-actions button {
+  border: 1px solid #33473a;
+  background: #fff;
+  color: #1c2420;
+  border-radius: .25rem;
+  padding: .35rem .7rem;
+}
+.gd-analytics-actions button[data-choice="granted"] { background: #1c2420; color: #fff; }
